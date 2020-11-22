@@ -16,4 +16,18 @@ For best experience use the font: [IBM Plex Mono](https://github.com/IBM/plex).
 | String | ![#3ddbd9](https://placehold.it/15/3ddbd9/000000?text=%20) `#3ddbd9` | Teal 30 |
 | Support | ![#6fdc8c](https://placehold.it/15/6fdc8c/000000?text=%20) `#6fdc8c` | Green 30 |
 
-![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshot.png)
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/js.png)
+
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/php.png)
+
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/ts.png)
+
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/css.png)
+
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/html.png)
+
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/py.png)
+
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/cpp.png)
+
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/c.png)

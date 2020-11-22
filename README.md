@@ -4,7 +4,7 @@ A theme by IBM’s design philosophy and principles.
 
 For best experience use the font: [IBM Plex Mono](https://github.com/IBM/plex).
 
-| Scope | Colors | Name |
+| Scope | Color | Name |
 | - | - | - |
 | Background | ![#161616](https://placehold.it/15/161616/000000?text=%20) `#161616` | Gray 100 |
 | Foreground | ![#c6c6c6](https://placehold.it/15/c6c6c6/000000?text=%20) `#c6c6c6` | Gray 30 |

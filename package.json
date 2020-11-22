@@ -13,7 +13,7 @@
     },
     "icon": "logo.png",
     "license": "DBAD license",
-    "version": "0.1.0",
+    "version": "1.0.0",
     "engines": {
         "vscode": "^1.51.0"
     },

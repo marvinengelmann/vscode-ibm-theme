@@ -1,0 +1,21 @@
+{
+    "name": "ibm-theme",
+    "displayName": "IBM Theme",
+    "description": "IBM color theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.51.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "IBM Theme",
+                "uiTheme": "vs-dark",
+                "path": "./themes/IBM Theme-color-theme.json"
+            }
+        ]
+    }
+}

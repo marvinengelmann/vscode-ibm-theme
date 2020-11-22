@@ -2,6 +2,8 @@
     "name": "ibm-theme",
     "displayName": "IBM Theme",
     "description": "IBM color theme",
+    "publisher": "marvinengelmann",
+    "repository": "marvinengelmann/vsc-ibm-theme",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.51.0"

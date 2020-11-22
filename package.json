@@ -12,8 +12,8 @@
       "url": "https://github.com/marvinengelmann/vsc-ibm-theme.git"
     },
     "icon": "logo.png",
-    "license": "DBAD license",
-    "version": "1.0.0",
+    "license": "DON'T BE A DICK PUBLIC LICENSE",
+    "version": "1.0.1",
     "engines": {
         "vscode": "^1.51.0"
     },

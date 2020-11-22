@@ -1,10 +1,19 @@
 {
     "name": "ibm-theme",
     "displayName": "IBM Theme",
-    "description": "IBM color theme",
+    "description": "A theme by IBM’s design philosophy and principles",
+    "keywords": [
+      "theme",
+      "ibm"
+    ],
     "publisher": "marvinengelmann",
-    "repository": "marvinengelmann/vsc-ibm-theme",
-    "version": "0.0.1",
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/marvinengelmann/vsc-ibm-theme.git"
+    },
+    "icon": "logo.png",
+    "license": "DBAD license",
+    "version": "0.1.0",
     "engines": {
         "vscode": "^1.51.0"
     },

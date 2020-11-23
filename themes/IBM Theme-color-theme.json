@@ -660,21 +660,21 @@
             "name": "Interface",
             "scope": "entity.name.type.interface",
             "settings": {
-                "foreground": "#b8d7a3"
+                "foreground": "#a7f0ba"
             }
         },
         {
             "name": "Enum",
             "scope": "entity.name.type.enum",
             "settings": {
-                "foreground": "#b8d7a3"
+                "foreground": "#a7f0ba"
             }
         },
         {
             "name": "Paramter",
             "scope": "entity.name.type.parameter",
             "settings": {
-                "foreground": "#b8d7a3"
+                "foreground": "#a7f0ba"
             }
         },
         {

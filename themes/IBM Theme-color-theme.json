@@ -36,17 +36,17 @@
         "extensionButton.prominentHoverBackground": "#0353e9",
         "inputOption.activeBorder": "#0f62fe",
         "editor.background": "#161616",
-        "editor.foreground": "#c6c6c6",
+        "editor.foreground": "#ffffff",
         "editorLineNumber.foreground": "#c6c6c6"
     },
-    "tokenColors": [
+    "tokenColors": [        
         {
             "scope": [
                 "meta.embedded",
                 "source.groovy.embedded"
             ],
             "settings": {
-                "foreground": "#D4D4D4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -172,7 +172,7 @@
         {
             "scope": "markup.deleted",
             "settings": {
-                "foreground": "#ada8a8"
+                "foreground": "#cac5c4"
             }
         },
         {
@@ -196,7 +196,7 @@
         {
             "scope": "markup.inline.raw",
             "settings": {
-                "foreground": "#ada8a8"
+                "foreground": "#cac5c4"
             }
         },
         {
@@ -218,7 +218,7 @@
         {
             "scope": "meta.preprocessor.string",
             "settings": {
-                "foreground": "#ada8a8"
+                "foreground": "#cac5c4"
             }
         },
         {
@@ -267,19 +267,19 @@
                 "meta.embedded.assembly"
             ],
             "settings": {
-                "foreground": "#ada8a8"
+                "foreground": "#cac5c4"
             }
         },
         {
             "scope": "string.tag",
             "settings": {
-                "foreground": "#ada8a8"
+                "foreground": "#cac5c4"
             }
         },
         {
             "scope": "string.value",
             "settings": {
-                "foreground": "#ada8a8"
+                "foreground": "#cac5c4"
             }
         },
         {
@@ -305,7 +305,7 @@
                 "meta.template.expression"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -336,7 +336,7 @@
         {
             "scope": "keyword.operator",
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#EE5396"
             }
         },
         {
@@ -391,7 +391,7 @@
                 "storage.modifier.package.java"
             ],
             "settings": {
-                "foreground": "#d4d4d4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -477,7 +477,8 @@
                 "keyword.operator.delete",
                 "keyword.other.using",
                 "keyword.other.operator",
-                "entity.name.operator"
+                "entity.name.operator",
+                "keyword.blade"
             ],
             "settings": {
                 "foreground": "#ee5396"
@@ -526,7 +527,7 @@
                 "support.constant.color"
             ],
             "settings": {
-                "foreground": "#ada8a8"
+                "foreground": "#cac5c4"
             }
         },
         {
@@ -541,7 +542,7 @@
                 "support.other.parenthesis.regexp"
             ],
             "settings": {
-                "foreground": "#ada8a8"
+                "foreground": "#cac5c4"
             }
         },
         {
@@ -606,7 +607,7 @@
             "name": "Punctuation",
             "scope": "punctuation",
             "settings": {
-                "foreground": "#D4D4D4"
+                "foreground": "#ffffff"
             }
         },
         {
@@ -618,42 +619,42 @@
         {
             "scope": "punctuation.definition.string",
             "settings": {
-                "foreground": "#ada8a8"
+                "foreground": "#cac5c4"
             }
         },
         {
             "name": "Namespace",
             "scope": "entity.name.namespace",
             "settings": {
-                "foreground": "#D4D4D4"
+                "foreground": "#ffffff"
             }
         },
         {
             "name": "Field",
             "scope": "entity.name.variable.field",
             "settings": {
-                "foreground": "#D4D4D4"
+                "foreground": "#ffffff"
             }
         },
         {
             "name": "Property",
             "scope": "variable.other.property",
             "settings": {
-                "foreground": "#D4D4D4"
+                "foreground": "#ffffff"
             }
         },
         {
             "name": "Constant",
             "scope": "variable.other.constant",
             "settings": {
-                "foreground": "#D4D4D4",
+                "foreground": "#ffffff",
             }
         },
         {
             "name": "Enum Member",
             "scope": "variable.other.enummember",
             "settings": {
-                "foreground": "#D4D4D4"
+                "foreground": "#ffffff"
             }
         },
         {

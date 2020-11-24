@@ -139,7 +139,7 @@
                 "entity.name.tag.html",
                 "entity.other.attribute-name.class.css",                
                 "entity.other.attribute-name.id.css",
-                "support.type.property-name.json"
+                "support.type.property-name.json",
                 "support.function.magic.php"
             ],
             "settings": {

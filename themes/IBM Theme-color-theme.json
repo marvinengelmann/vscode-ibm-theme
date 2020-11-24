@@ -89,6 +89,7 @@
                 "keyword.other.unit.cm.css",
                 "keyword.other.unit.mm.css",
                 "keyword.other.unit.in.css",
+                "keyword.other.important.css",
                 "keyword.operator.expression.typeof.js",                
                 "variable.language.super.ts",
                 "keyword.control.export.ts",

@@ -50,7 +50,6 @@
                 "keyword.operator.bitwise.shift.js",
                 "keyword.operator.logical.js",
                 "keyword.operator.relational.js",
-                "keyword.operator.assignment.compound.js",
                 "keyword.operator.increment.js",
                 "keyword.operator.decrement.js",
                 "keyword.operator.optional.ts"

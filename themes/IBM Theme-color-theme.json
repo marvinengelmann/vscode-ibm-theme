@@ -44,7 +44,15 @@
             "name": "Red 40",
             "scope": [
                 "keyword.operator.combinator.css",
-                "keyword.operator.pattern.css"
+                "keyword.operator.pattern.css",
+                "keyword.operator.arithmetic.js",
+                "keyword.operator.bitwise.shift.js",
+                "keyword.operator.logical.js",
+                "keyword.operator.comparison.js",
+                "keyword.operator.relational.js",
+                "keyword.operator.assignment.compound.js",
+                "keyword.operator.increment.js",
+                "keyword.operator.decrement.js",                
             ],
             "settings": {
                 "foreground": "#ff8389"
@@ -66,7 +74,15 @@
                 "keyword.other.unit.pt.css",
                 "keyword.other.unit.cm.css",
                 "keyword.other.unit.mm.css",
-                "keyword.other.unit.in.css"
+                "keyword.other.unit.in.css",
+                "keyword.control.conditional.js",
+                "keyword.control.loop.js",
+                "keyword.operator.expression.in.js",
+                "keyword.operator.expression.of.js",
+                "keyword.control.switch.js",
+                "keyword.control.flow.js",
+                "keyword.operator.new.js",
+                "keyword.operator.expression.typeof.js"
             ],
             "settings": {
                 "foreground": "#ff7eb6"
@@ -89,7 +105,10 @@
                 "entity.name.tag.html",
                 "entity.other.attribute-name.class.css",                
                 "entity.other.attribute-name.id.css",
-                "support.type.property-name.json"
+                "support.type.property-name.json",
+                "storage.type.js",
+                "storage.type.function.js",
+                "variable.language.this.js"
             ],
             "settings": {
                 "foreground": "#4589ff"
@@ -100,7 +119,15 @@
             "scope": [
                 "entity.other.attribute-name.html",
                 "support.type.property-name.css",
-                "entity.other.attribute-name.css"
+                "entity.other.attribute-name.css",
+                "support.variable.property.js",
+                "variable.other.readwrite.js",
+                "variable.other.object.js",
+                "variable.other.property.js",
+                "meta.object-literal.key.js",
+                "variable.parameter.js",
+                "variable.other.object.property.js",
+                "variable.other.constant.js"
             ],
             "settings": {
                 "foreground": "#33b1ff"
@@ -114,7 +141,10 @@
                 "support.constant.property-value.css",
                 "support.constant.color.w3c-extended-color-name.css",
                 "support.constant.color.w3c-standard-color-name.css",
-                "entity.other.attribute-name.pseudo-element.css"
+                "entity.other.attribute-name.pseudo-element.css",
+                "entity.name.function.js",
+                "support.function.js",
+                "support.function.math.js"
             ],
             "settings": {
                 "foreground": "#08bdba"
@@ -124,7 +154,11 @@
             "name": "Green 30",
             "scope": [
                 "support.function.misc.css",
-                "support.function.url.css"
+                "support.function.url.css",
+                "support.constant.math.js",
+                "entity.name.type.js",
+                "support.class.builtin.js",
+                "support.class.js"
             ],
             "settings": {
                 "foreground": "#6fdc8c"
@@ -155,7 +189,8 @@
                 "punctuation.definition.string.end",
                 "punctuation.definition.entity.css",
                 "punctuation.support.type.property-name.begin.json",
-                "punctuation.support.type.property-name.end.json"
+                "punctuation.support.type.property-name.end.json",
+                "punctuation.separator.key-value.js"
             ],
             "settings": {
                 "foreground": "#ffffff"

@@ -169,7 +169,7 @@
             }
         },
         {
-            "name": "Teal 30",
+            "name": "Teal 40",
             "scope": [
                 "entity.name.function",
                 "support.function.math",                

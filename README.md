@@ -4,7 +4,7 @@ A theme with an unique aesthetic, trying to represent the IBM Design Language wi
 
 For an incomparable experience the font [IBM Plex Mono](https://github.com/IBM/plex) is required.
 
-The following languages are supportet: `html`, `css`, `json`, `javascript`, `TypeScript`
+The following languages are supportet: `html`, `css`, `json`, `javascript`, `TypeScript`, `PHP`
 
 ![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/js.png)
 

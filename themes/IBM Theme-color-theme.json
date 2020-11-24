@@ -139,6 +139,7 @@
                 "entity.other.attribute-name.class.css",                
                 "entity.other.attribute-name.id.css",
                 "support.type.property-name.json"
+                "support.function.magic.php"
             ],
             "settings": {
                 "foreground": "#4589ff"
@@ -188,7 +189,6 @@
                 "support.function.var.php",
                 "support.function.info.php",
                 "support.function.funchand.php",
-                "support.function.magic.php"
             ],
             "settings": {
                 "foreground": "#08bdba"

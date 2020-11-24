@@ -43,16 +43,17 @@
         {
             "name": "Red 40",
             "scope": [
+                "keyword.operator.arithmetic",
+                "keyword.operator.comparison",
                 "keyword.operator.combinator.css",
                 "keyword.operator.pattern.css",
-                "keyword.operator.arithmetic.js",
                 "keyword.operator.bitwise.shift.js",
                 "keyword.operator.logical.js",
-                "keyword.operator.comparison.js",
                 "keyword.operator.relational.js",
                 "keyword.operator.assignment.compound.js",
                 "keyword.operator.increment.js",
-                "keyword.operator.decrement.js",                
+                "keyword.operator.decrement.js",
+                "keyword.operator.optional.ts"
             ],
             "settings": {
                 "foreground": "#ff8389"
@@ -61,6 +62,12 @@
         {
             "name": "Magenta 40",
             "scope": [
+                "keyword.control.flow",
+                "keyword.operator.new",
+                "keyword.control.conditional",
+                "keyword.control.loop",
+                "keyword.operator.expression.of",
+                "keyword.operator.expression.in",
                 "entity.name.tag.css",
                 "entity.name.tag.wildcard.css",
                 "keyword.other.unit.percentage.css",
@@ -75,14 +82,12 @@
                 "keyword.other.unit.cm.css",
                 "keyword.other.unit.mm.css",
                 "keyword.other.unit.in.css",
-                "keyword.control.conditional.js",
-                "keyword.control.loop.js",
-                "keyword.operator.expression.in.js",
-                "keyword.operator.expression.of.js",
                 "keyword.control.switch.js",
-                "keyword.control.flow.js",
-                "keyword.operator.new.js",
-                "keyword.operator.expression.typeof.js"
+                "keyword.operator.expression.typeof.js",                
+                "variable.language.super.ts",
+                "keyword.control.export.ts",
+                "keyword.control.import.ts",
+                "keyword.control.as.ts"
             ],
             "settings": {
                 "foreground": "#ff7eb6"
@@ -102,13 +107,14 @@
         {
             "name": "Blue 50",
             "scope": [
+                "storage.type",
+                "variable.language.this",
                 "entity.name.tag.html",
                 "entity.other.attribute-name.class.css",                
                 "entity.other.attribute-name.id.css",
                 "support.type.property-name.json",
-                "storage.type.js",
                 "storage.type.function.js",
-                "variable.language.this.js"
+                "storage.modifier.ts"
             ],
             "settings": {
                 "foreground": "#4589ff"
@@ -117,17 +123,19 @@
         {
             "name": "Cyan 40",
             "scope": [
+                "variable.other.readwrite",
+                "variable.other.constant",
+                "variable.parameter",
+                "meta.object-literal.key",
+                "variable.other.object",
+                "variable.other.property",
+                "support.variable.property",
                 "entity.other.attribute-name.html",
                 "support.type.property-name.css",
                 "entity.other.attribute-name.css",
-                "support.variable.property.js",
-                "variable.other.readwrite.js",
-                "variable.other.object.js",
-                "variable.other.property.js",
-                "meta.object-literal.key.js",
-                "variable.parameter.js",
                 "variable.other.object.property.js",
-                "variable.other.constant.js"
+                "variable.object.property.ts",
+                "variable.other.enummember.ts"
             ],
             "settings": {
                 "foreground": "#33b1ff"
@@ -136,15 +144,15 @@
         {
             "name": "Teal 30",
             "scope": [
+                "entity.name.function",
+                "support.function.math",
                 "entity.other.attribute-name.pseudo-class.css",
                 "support.constant.font-name.css",
                 "support.constant.property-value.css",
                 "support.constant.color.w3c-extended-color-name.css",
                 "support.constant.color.w3c-standard-color-name.css",
                 "entity.other.attribute-name.pseudo-element.css",
-                "entity.name.function.js",
-                "support.function.js",
-                "support.function.math.js"
+                "support.function.js"
             ],
             "settings": {
                 "foreground": "#08bdba"
@@ -153,12 +161,14 @@
         {
             "name": "Green 30",
             "scope": [
+                "entity.name.type",
+                "support.constant.math",
                 "support.function.misc.css",
                 "support.function.url.css",
-                "support.constant.math.js",
-                "entity.name.type.js",
                 "support.class.builtin.js",
-                "support.class.js"
+                "support.class.js",
+                "entity.other.inherited-class.ts",
+                "support.type.primitive.ts"
             ],
             "settings": {
                 "foreground": "#6fdc8c"
@@ -176,7 +186,8 @@
             "scope": [
                 "string.quoted.double",
                 "string.quoted.single",
-                "variable.parameter.url.css"
+                "string.template",
+                "variable.parameter.url.css",
             ],
             "settings": {
                 "foreground": "#8d8d8d"
@@ -187,6 +198,11 @@
             "scope": [
                 "punctuation.definition.string.begin",
                 "punctuation.definition.string.end",
+                "punctuation.definition.string.template.begin",
+                "punctuation.definition.string.template.end",
+                "punctuation.definition.template-expression.begin",
+                "punctuation.definition.template-expression.end",
+                "storage.type.function.arrow",
                 "punctuation.definition.entity.css",
                 "punctuation.support.type.property-name.begin.json",
                 "punctuation.support.type.property-name.end.json",

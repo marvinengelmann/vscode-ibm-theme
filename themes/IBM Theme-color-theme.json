@@ -177,6 +177,7 @@
                 "support.type.property-name.css",
                 "entity.other.attribute-name.css",
                 "variable.other.object.property.js",
+                "entity.name.label.js",
                 "variable.object.property.ts",
                 "variable.other.enummember.ts",
                 "variable.other.php",

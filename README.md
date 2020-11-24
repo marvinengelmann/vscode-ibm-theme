@@ -4,16 +4,18 @@ A theme with an unique aesthetic, trying to represent the IBM Design Language wi
 
 For an incomparable experience the font [IBM Plex Mono](https://github.com/IBM/plex) is required.
 
-The following languages are supportet: `html`, `css`, `json`, `javascript`, `TypeScript`, `PHP`
+The following languages are currently supported: `html`, `css`, `json`, `javascript`, `TypeScript`, `PHP`
 
-![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/js.png)
+The color theme is tested against code from [Learn X in Y minutes](https://learnxinyminutes.com/).
+
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/cs.png)
 
 ![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/php.png)
 
 ![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/ts.png)
 
-![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/cs.png)
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/css.png)
+
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/js.png)
 
 ![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/html.png)
-
-![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/c.png)

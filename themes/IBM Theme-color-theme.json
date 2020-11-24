@@ -75,7 +75,8 @@
         {
             "name": "Purple 50",
             "scope": [
-                "constant.numeric.css",
+                "constant.numeric",
+                "constant.language",
                 "constant.other.color.rgb-value.hex.css"
             ],
             "settings": {
@@ -87,7 +88,8 @@
             "scope": [
                 "entity.name.tag.html",
                 "entity.other.attribute-name.class.css",                
-                "entity.other.attribute-name.id.css"
+                "entity.other.attribute-name.id.css",
+                "support.type.property-name.json"
             ],
             "settings": {
                 "foreground": "#4589ff"
@@ -151,7 +153,9 @@
             "scope": [
                 "punctuation.definition.string.begin",
                 "punctuation.definition.string.end",
-                "punctuation.definition.entity.css"
+                "punctuation.definition.entity.css",
+                "punctuation.support.type.property-name.begin.json",
+                "punctuation.support.type.property-name.end.json"
             ],
             "settings": {
                 "foreground": "#ffffff"

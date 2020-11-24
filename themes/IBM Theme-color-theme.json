@@ -254,6 +254,52 @@
             "settings": {
                 "foreground": "#ffffff"
             }
-        }                                          
+        },
+        {
+            "name": "Italic",
+            "scope": [
+                "storage.type",
+                "storage.modifier",
+                "constant.language",
+                "keyword.control.conditional",
+                "keyword.control.loop",
+                "keyword.operator.expression",
+                "keyword.control.flow",
+                "keyword.operator.new",
+                "keyword.other.new",
+                "keyword.other.use",
+                "keyword.other.namespace",
+                "variable.language.this",
+                "support.type.primitive",
+                "keyword.control.if",
+                "keyword.control.foreach",
+                "keyword.control.return",
+                "keyword.control.exception",
+                "keyword.control.switch",
+                "keyword.control.export",
+                "keyword.control.import",
+                "keyword.control.as",
+                "entity.other.attribute-name.html",
+                "entity.other.attribute-name.pseudo-class.css",
+                "entity.other.attribute-name.pseudo-element.css",
+                "keyword.other.important.css",
+                "entity.name.tag.css",
+                "entity.other.attribute-name.css",
+                "support.function.magic.php",
+                "keyword.control.import.include.php"
+            ],
+            "settings": {
+                "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "None",
+            "scope": [
+                "storage.type.function.arrow"
+            ],
+            "settings": {
+                "fontStyle": ""
+            }
+        }                                     
     ]
 }

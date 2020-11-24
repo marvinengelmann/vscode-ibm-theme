@@ -258,6 +258,7 @@
         {
             "name": "Italic",
             "scope": [
+                "comment",
                 "storage.type",
                 "storage.modifier",
                 "constant.language",

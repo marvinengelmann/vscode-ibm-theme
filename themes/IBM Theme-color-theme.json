@@ -138,8 +138,7 @@
                 "entity.name.tag.html",
                 "entity.other.attribute-name.class.css",                
                 "entity.other.attribute-name.id.css",
-                "support.type.property-name.json",
-                "storage.type.function.js",
+                "support.type.property-name.json"
             ],
             "settings": {
                 "foreground": "#4589ff"
@@ -203,7 +202,6 @@
                 "support.class",
                 "support.function.misc.css",
                 "support.function.url.css",
-                "support.class.builtin.js",
                 "entity.other.inherited-class.ts",
                 "support.type.primitive.ts",
                 "entity.other.inherited-class.php",

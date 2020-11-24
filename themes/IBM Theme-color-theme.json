@@ -174,14 +174,14 @@
             }
         },
         {
-            "name": "Gray 80",
+            "name": "Gray 70",
             "scope": "comment",
             "settings": {
-                "foreground": "#393939"
+                "foreground": "#525252"
             }
         },
         {
-            "name": "Gray 50",
+            "name": "Gray 40",
             "scope": [
                 "string.quoted.double",
                 "string.quoted.single",
@@ -189,7 +189,7 @@
                 "variable.parameter.url.css",
             ],
             "settings": {
-                "foreground": "#8d8d8d"
+                "foreground": "#a8a8a8"
             }
         },
         {

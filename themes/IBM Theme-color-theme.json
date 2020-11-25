@@ -43,24 +43,26 @@
         {
             "name": "Red 40",
             "scope": [
+                // Global
+                "keyword.operator.pattern",
+                "keyword.operator.combinator",
                 "keyword.operator.arithmetic",
-                "keyword.operator.comparison",
+                "keyword.operator.bitwise.shift",
                 "keyword.operator.logical",
+                "keyword.operator.comparison",
+                "keyword.operator.relational",
                 "keyword.operator.increment",
                 "keyword.operator.decrement",
-                "keyword.operator.relational",
+                "keyword.operator.optional",
+                "keyword.operator.increment-decrement",
+                "keyword.operator.nowdoc",
+                "keyword.operator.heredoc",
                 "keyword.operator.null-coalescing",
-                "keyword.operator.combinator.css",
-                "keyword.operator.pattern.css",
-                "keyword.operator.bitwise.shift.js",
-                "keyword.operator.optional.ts",
-                "keyword.operator.nowdoc.php",
-                "keyword.operator.heredoc.php",
-                "storage.modifier.reference.php",
-                "keyword.operator.ternary.php",                
-                "keyword.operator.increment-decrement.php",
-                "punctuation.separator.question-mark.cs",
-                "keyword.operator.null-conditional.cs"
+                "keyword.operator.null-conditional",
+                "keyword.operator.conditional.question-mark",
+                "keyword.operator.conditional.colon",
+                "storage.modifier.reference",
+                "punctuation.separator.question-mark"
             ],
             "settings": {
                 "foreground": "#ff8389"
@@ -69,44 +71,26 @@
         {
             "name": "Magenta 40",
             "scope": [
-                "keyword.control.flow",
-                "keyword.control.export",
-                "keyword.control.import",
-                "keyword.control.as",
-                "keyword.control.if",
-                "keyword.control.else",
-                "keyword.control.elseif",
-                "keyword.control.endif",
-                "keyword.control.case",
-                "keyword.control.break",
-                "keyword.control.default",
-                "keyword.control.while",
-                "keyword.control.do",
-                "keyword.control.for",
-                "keyword.control.foreach",
-                "keyword.control.continue",
-                "keyword.control.return",
-                "keyword.control.loop",
-                "keyword.control.switch",
-                "keyword.control.try",
-                "keyword.operator.new",
-                "keyword.control.conditional",
-                "keyword.operator.expression.of",
+                // Global
+                "entity.name.tag.wildcard",
+                "keyword.control",                
+                "keyword.operator.logical.and.media",
                 "keyword.operator.expression.in",
-                "keyword.other.namespace",
+                "keyword.operator.expression.of",
+                "keyword.operator.new",
+                "keyword.operator.expression.typeof",
+                "keyword.other.important",
+                "keyword.other.function.use",
                 "keyword.other.new",
+                "keyword.other.use",
+                "keyword.other.namespace",
+                "keyword.other.use-as",
+                "keyword.other.using",
+                "variable.language.super",
                 "constant.character.escape",
-                "entity.name.tag.css",
-                "entity.name.tag.wildcard.css",              
-                "keyword.other.important.css",
-                "keyword.operator.expression.typeof.js",                
-                "variable.language.super.ts",                
-                "keyword.control.import.include.php",
-                "keyword.other.use.php",
-                "keyword.other.use-as.php",
-                "keyword.control.exception.php",
-                "keyword.control.exception.catch.php",
-                "keyword.other.using.cs",                   
+
+                // CSS
+                "entity.name.tag.css"                
             ],
             "settings": {
                 "foreground": "#ff7eb6"
@@ -114,21 +98,25 @@
         },
         {
             "name": "Purple 50",
-            "scope": [                
+            "scope": [
+                // Global
+                "entity.other.attribute-name.pseudo-class",
+                "entity.other.attribute-name.pseudo-element",
+                "entity.other.inherited-class",
+                "entity.other.alias",
+                "entity.name.type",
+                "entity.name.variable.event",
+                "support.constant.property-value",
+                "support.constant.color.w3c-extended-color-name",
+                "support.constant.color.w3c-standard-color-name",
+                "support.constant.font-name",
                 "support.constant.math",
                 "support.class",
+                "support.type.primitive",
+                "support.other.namespace",
                 "constant.language",
-                "entity.name.type",
-                "support.function.misc.css",
-                "support.function.url.css",
-                "entity.other.attribute-name.pseudo-element.css",
-                "entity.other.attribute-name.pseudo-class.css",
-                "entity.other.inherited-class.ts",
-                "support.type.primitive.ts",
-                "entity.other.inherited-class.php",
-                "support.other.namespace.php",
-                "entity.other.alias.php",                
-                "entity.name.variable.event.cs",
+
+                // C#
                 "storage.type.cs"
             ],
             "settings": {
@@ -138,14 +126,15 @@
         {
             "name": "Blue 50",
             "scope": [
+                // Global
+                "entity.name.tag",
+                "entity.other.attribute-name.class",
+                "entity.other.attribute-name.id",
+                "support.constant.media",
                 "storage.type",
                 "storage.modifier",
                 "variable.language.this",
-                "entity.name.tag.html",
-                "entity.other.attribute-name.class.css",                
-                "entity.other.attribute-name.id.css",
-                "support.type.property-name.json",
-                "support.function.magic.php",                
+                "keyword.type",
                 "keyword.other.class",
                 "keyword.other.var",
                 "keyword.other.delegate",
@@ -155,9 +144,11 @@
                 "keyword.other.get",
                 "keyword.other.set",
                 "keyword.other.interface",
-                "keyword.other.static",
                 "keyword.other.nameof",
-                "keyword.type.cs",
+                "keyword.other.static",
+
+                // JSON
+                "support.type.property-name.json"
             ],
             "settings": {
                 "foreground": "#4589ff"
@@ -166,30 +157,22 @@
         {
             "name": "Cyan 40",
             "scope": [
-                "variable.other.readwrite",
-                "variable.other.constant",
-                "variable.parameter",
-                "meta.object-literal.key",
-                "variable.other.object",
-                "variable.other.property",
+                // Global
+                "entity.other.attribute-name",
+                "entity.name.label",
+                "entity.name.variable.parameter",
+                "entity.name.variable.local",
+                "entity.name.variable.field",
+                "entity.name.variable.enum-member",
+                "entity.name.variable.property",
+                "entity.name.variable.tuple-element",
+                "support.type.property-name",
                 "support.variable.property",
-                "entity.other.attribute-name.html",
-                "support.type.property-name.css",
-                "entity.other.attribute-name.css",
-                "variable.other.object.property.js",
-                "entity.name.label.js",
-                "variable.object.property.ts",
-                "variable.other.enummember.ts",
-                "variable.other.php",
-                "constant.other.php",
-                "constant.other.class.php",
-                "variable.other.class.php",
-                "entity.name.variable.parameter.cs",
-                "entity.name.variable.local.cs",
-                "entity.name.variable.enum-member.cs",
-                "entity.name.variable.property.cs",
-                "entity.name.variable.field.cs",
-                "entity.name.variable.tuple-element.cs"
+                "variable.other",
+                "variable.parameter",
+                "variable.object.property",
+                "meta.object-literal.key",
+                "constant.other"
             ],
             "settings": {
                 "foreground": "#33b1ff"
@@ -198,33 +181,11 @@
         {
             "name": "Teal 40",
             "scope": [
-                "entity.name.function",
-                "support.function.math",                
-                "support.constant.font-name.css",
-                "support.constant.property-value.css",
-                "support.constant.color.w3c-extended-color-name.css",
-                "support.constant.color.w3c-standard-color-name.css",                
-                "keyword.other.unit.percentage.css",
-                "keyword.other.unit.em.css",
-                "keyword.other.unit.rem.css",
-                "keyword.other.unit.vw.css",
-                "keyword.other.unit.vh.css",
-                "keyword.other.unit.vmin.css",
-                "keyword.other.unit.vmax.css",
-                "keyword.other.unit.px.css",
-                "keyword.other.unit.pt.css",
-                "keyword.other.unit.cm.css",
-                "keyword.other.unit.mm.css",
-                "keyword.other.unit.in.css",
-                "support.function.js",
-                "support.function.construct.output.php",
-                "support.function.construct.php",
-                "support.function.basic_functions.php",
-                "support.function.array.php",
-                "support.function.var.php",
-                "support.function.info.php",
-                "support.function.funchand.php",
-                "keyword.other.base.cs"
+                // Global
+                "support.function",
+                "keyword.other.unit",
+                "keyword.other.base",
+                "entity.name.function"
             ],
             "settings": {
                 "foreground": "#08bdba"
@@ -233,8 +194,9 @@
         {
             "name": "Green 30",
             "scope": [
-                "constant.numeric",                
-                "constant.other.color.rgb-value.hex.css"                
+                // Global
+                "constant.numeric",
+                "constant.other.color.rgb-value.hex"
             ],
             "settings": {
                 "foreground": "#6fdc8c"
@@ -250,12 +212,13 @@
         {
             "name": "Gray 40",
             "scope": [
+                // Global
                 "string.quoted.double",
                 "string.quoted.single",
                 "string.template",
-                "variable.parameter.url.css",
-                "string.unquoted.nowdoc.php",
-                "string.unquoted.heredoc.php"
+                "string.unquoted.nowdoc",
+                "string.unquoted.heredoc",
+                "variable.parameter.url",                
             ],
             "settings": {
                 "foreground": "#a8a8a8"
@@ -264,21 +227,22 @@
         {
             "name": "White",
             "scope": [
+                // Global
                 "punctuation.definition.string.begin",
                 "punctuation.definition.string.end",
+                "punctuation.definition.entity",
                 "punctuation.definition.string.template.begin",
                 "punctuation.definition.string.template.end",
                 "punctuation.definition.template-expression.begin",
                 "punctuation.definition.template-expression.end",
+                "punctuation.definition.variable",
+                "punctuation.definition.string",
                 "punctuation.definition.interpolation.begin",
                 "punctuation.definition.interpolation.end",
-                "storage.type.function.arrow",
-                "punctuation.definition.entity.css",
-                "punctuation.support.type.property-name.begin.json",
-                "punctuation.support.type.property-name.end.json",
-                "punctuation.separator.key-value.js",
-                "punctuation.definition.variable.php",
-                "punctuation.definition.string.php"
+                "punctuation.support.type.property-name.begin",
+                "punctuation.support.type.property-name.end",
+                "punctuation.separator.inheritance",
+                "storage.type.function.arrow"
             ],
             "settings": {
                 "foreground": "#ffffff"
@@ -287,51 +251,25 @@
         {
             "name": "Italic",
             "scope": [
-                "comment",
+                // Global
+                "entity.other.attribute-name",
+                "entity.name.tag",
+                "keyword.control",                
+                "keyword.operator.logical.and.media",
+                "keyword.operator.expression.in",
+                "keyword.operator.expression.of",
+                "keyword.operator.expression.typeof",
+                "keyword.operator.new",
+                "keyword.other",              
+                "keyword.type",
+                "support.constant.color.w3c-extended-color-name",
+                "support.constant.color.w3c-standard-color-name",
+                "support.type.primitive",
+                "constant.language",
                 "storage.type",
                 "storage.modifier",
-                "constant.language",
-                "keyword.type",
-                "keyword.control.conditional",
-                "keyword.control.loop",
-                "keyword.operator.expression",
-                "keyword.control.flow",
-                "keyword.operator.new",
-                "keyword.other.new",
-                "keyword.other.use",
-                "keyword.other.namespace",
-                "keyword.other.using",
-                "keyword.other.class",
-                "keyword.other.var",
-                "keyword.other.this",
-                "keyword.other.get",
-                "keyword.other.set",
-                "keyword.other.interface",
-                "keyword.other.event",
-                "keyword.other.enum",
                 "variable.language.this",
-                "support.type.primitive",
-                "keyword.control.if",
-                "keyword.control.foreach",
-                "keyword.control.return",
-                "keyword.control.exception",
-                "keyword.control.switch",
-                "keyword.control.export",
-                "keyword.control.import",
-                "keyword.control.while",
-                "keyword.control.break",
-                "keyword.control.for",
-                "keyword.control.continue",
-                "keyword.control.as",
-                "keyword.control.try",
-                "entity.other.attribute-name.html",
-                "entity.other.attribute-name.pseudo-class.css",
-                "entity.other.attribute-name.pseudo-element.css",
-                "keyword.other.important.css",
-                "entity.name.tag.css",
-                "entity.other.attribute-name.css",
-                "support.function.magic.php",
-                "keyword.control.import.include.php"
+                "variable.language.super"
             ],
             "settings": {
                 "fontStyle": "italic"
@@ -340,7 +278,13 @@
         {
             "name": "None",
             "scope": [
+                // Global
                 "storage.type.function.arrow",
+
+                // CSS
+                "entity.other.attribute-name.class.css",
+
+                // C#
                 "storage.type.cs"
             ],
             "settings": {

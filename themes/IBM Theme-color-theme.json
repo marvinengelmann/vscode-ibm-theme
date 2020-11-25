@@ -90,7 +90,7 @@
                 "constant.character.escape",
 
                 // CSS
-                "entity.name.tag.css"                
+                "entity.name.tag.css"
             ],
             "settings": {
                 "foreground": "#ff7eb6"
@@ -117,7 +117,10 @@
                 "constant.language",
 
                 // C#
-                "storage.type.cs"
+                "storage.type.cs",
+
+                // Markdown
+                "meta.separator.markdown"                
             ],
             "settings": {
                 "foreground": "#a56eff"
@@ -148,7 +151,14 @@
                 "keyword.other.static",
 
                 // JSON
-                "support.type.property-name.json"
+                "support.type.property-name.json",
+
+                // Markdown
+                "punctuation.definition.heading.markdown",
+                "markup.heading.setext.1.markdown",
+                "markup.heading.setext.2.markdown",
+                "punctuation.definition.quote.begin.markdown",
+                "punctuation.definition.list.begin.markdown"
             ],
             "settings": {
                 "foreground": "#4589ff"
@@ -172,7 +182,12 @@
                 "variable.parameter",
                 "variable.object.property",
                 "meta.object-literal.key",
-                "constant.other"
+                "constant.other",
+
+                // Markdown
+                "punctuation.definition.italic.markdown",
+                "punctuation.definition.bold.markdown",
+                "constant.character.escape.markdown"
             ],
             "settings": {
                 "foreground": "#33b1ff"
@@ -185,7 +200,10 @@
                 "support.function",
                 "keyword.other.unit",
                 "keyword.other.base",
-                "entity.name.function"
+                "entity.name.function",
+
+                // Markdown
+                "markup.inline.raw.string.markdown"
             ],
             "settings": {
                 "foreground": "#08bdba"
@@ -218,7 +236,13 @@
                 "string.template",
                 "string.unquoted.nowdoc",
                 "string.unquoted.heredoc",
-                "variable.parameter.url",                
+                "variable.parameter.url",
+                
+                // Markdown
+                "markup.underline.link.markdown",
+                "markup.underline.link.image.markdown",
+                "string.other.link.description.title.markdown",
+                "string.other.link.title.markdown"
             ],
             "settings": {
                 "foreground": "#a8a8a8"
@@ -239,6 +263,7 @@
                 "punctuation.definition.string",
                 "punctuation.definition.interpolation.begin",
                 "punctuation.definition.interpolation.end",
+                "punctuation.definition.raw",
                 "punctuation.support.type.property-name.begin",
                 "punctuation.support.type.property-name.end",
                 "punctuation.separator.inheritance",

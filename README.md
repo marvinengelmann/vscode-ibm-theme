@@ -4,7 +4,7 @@ A theme with an unique aesthetic, trying to represent the IBM Design Language wi
 
 For an incomparable experience the font [IBM Plex Mono](https://github.com/IBM/plex) is required.
 
-The following technologies are currently supported: `HTML`, `CSS`, `JSON`, `JavaScript`, `TypeScript`, `PHP`, `C#`
+The following technologies are currently supported: `HTML`, `CSS`, `JSON`, `JavaScript`, `TypeScript`, `PHP`, `C#`, `Markdown`
 
 The color theme is tested against code from [Learn X in Y minutes](https://learnxinyminutes.com/).
 

@@ -306,6 +306,8 @@
             "scope": [
                 // Global
                 "storage.type.function.arrow",
+                "punctuation.definition.entity",
+                "keyword.other.unit",
 
                 // CSS
                 "entity.other.attribute-name.class.css",

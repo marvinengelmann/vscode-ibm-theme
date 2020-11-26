@@ -47,7 +47,7 @@
                 "keyword.operator.pattern",
                 "keyword.operator.combinator",
                 "keyword.operator.arithmetic",
-                "keyword.operator.bitwise.shift",
+                "keyword.operator.bitwise",
                 "keyword.operator.logical",
                 "keyword.operator.comparison",
                 "keyword.operator.relational",
@@ -61,6 +61,8 @@
                 "keyword.operator.null-conditional",
                 "keyword.operator.conditional.question-mark",
                 "keyword.operator.conditional.colon",
+                "keyword.operator.unpacking.arguments",
+                "keyword.operator.unpacking.parameter",
                 "storage.modifier.reference",
                 "punctuation.separator.question-mark"
             ],
@@ -86,6 +88,7 @@
                 "keyword.other.namespace",
                 "keyword.other.use-as",
                 "keyword.other.using",
+                "keyword.other.where",
                 "variable.language.super",
                 "constant.character.escape",
 
@@ -112,7 +115,7 @@
                 "support.constant.font-name",
                 "support.constant.math",
                 "support.class",
-                "support.type.primitive",
+                "support.type",
                 "support.other.namespace",
                 "constant.language",
                 "meta.property-value",
@@ -183,12 +186,16 @@
                 "variable.parameter",
                 "variable.object.property",
                 "meta.object-literal.key",
+                "meta.function-call.arguments",
                 "constant.other",
 
                 // Markdown
                 "punctuation.definition.italic.markdown",
                 "punctuation.definition.bold.markdown",
-                "constant.character.escape.markdown"
+                "constant.character.escape.markdown",
+
+                // Python
+                "source.python"
             ],
             "settings": {
                 "foreground": "#33b1ff"
@@ -202,6 +209,7 @@
                 "keyword.other.unit",
                 "keyword.other.base",
                 "entity.name.function",
+                "meta.function-call.generic",
 
                 // Markdown
                 "markup.inline.raw.string.markdown"
@@ -238,6 +246,8 @@
                 "string.unquoted.nowdoc",
                 "string.unquoted.heredoc",
                 "variable.parameter.url",
+                "string.quoted.docstring.multi",
+                "string.quoted.docstring.single",
                 
                 // Markdown
                 "markup.underline.link.markdown",
@@ -253,25 +263,43 @@
             "name": "White",
             "scope": [
                 // Global
-                "punctuation.definition.string.begin",
-                "punctuation.definition.string.end",
+                "punctuation.definition.string",
                 "punctuation.definition.entity",
-                "punctuation.definition.string.template.begin",
-                "punctuation.definition.string.template.end",
-                "punctuation.definition.template-expression.begin",
-                "punctuation.definition.template-expression.end",
+                "punctuation.definition.string.template",
+                "punctuation.definition.template-expression",
                 "punctuation.definition.variable",
                 "punctuation.definition.string",
-                "punctuation.definition.interpolation.begin",
-                "punctuation.definition.interpolation.end",
+                "punctuation.definition.interpolation",
                 "punctuation.definition.raw",
-                "punctuation.support.type.property-name.begin",
-                "punctuation.support.type.property-name.end",
+                "punctuation.definition.arguments",
+                "punctuation.definition.list",
+                "punctuation.definition.dict",
+                "punctuation.definition.parameters",
+                "punctuation.definition.decorator",
+                "punctuation.definition.inheritance",
+                "punctuation.parenthesis",
+                "punctuation.support.type.property-name",
                 "punctuation.separator.inheritance",
+                "punctuation.separator.element",
+                "punctuation.separator.list.comma",
+                "punctuation.separator.parameters",
+                "punctuation.separator.colon",
+                "punctuation.separator.key-value",
                 "punctuation.section.function.begin.bracket.round",
                 "punctuation.section.function.end.bracket.round",
-                "punctuation.separator.list.comma",
-                "storage.type.function.arrow"
+                "punctuation.section.function.lambda",
+                "punctuation.section.function",
+                "punctuation.section.class",
+                "punctuation.separator.arguments",
+                "punctuation.separator.slice",
+                "punctuation.separator.dict",
+                "punctuation.separator.period",
+                "storage.type.function.arrow",
+                "keyword.operator.assignment",
+                "constant.character.format.placeholder.other",
+
+                // Python
+                "keyword.operator.python"
             ],
             "settings": {
                 "foreground": "#ffffff"

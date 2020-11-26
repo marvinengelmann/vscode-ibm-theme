@@ -115,6 +115,7 @@
                 "support.type.primitive",
                 "support.other.namespace",
                 "constant.language",
+                "meta.property-value",
 
                 // C#
                 "storage.type.cs",

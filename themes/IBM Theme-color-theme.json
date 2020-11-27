@@ -81,6 +81,7 @@
                 "keyword.operator.expression.of",
                 "keyword.operator.new",
                 "keyword.operator.expression.typeof",
+                "keyword.operator.star",
                 "keyword.other.important",
                 "keyword.other.function.use",
                 "keyword.other.new",
@@ -124,7 +125,10 @@
                 "storage.type.cs",
 
                 // Markdown
-                "meta.separator.markdown"                
+                "meta.separator.markdown",
+                
+                // SQL
+                "constant.other.database-name.sql"
             ],
             "settings": {
                 "foreground": "#a56eff"
@@ -153,6 +157,7 @@
                 "keyword.other.interface",
                 "keyword.other.nameof",
                 "keyword.other.static",
+                "keyword.other.DML",
 
                 // JSON
                 "support.type.property-name.json",
@@ -162,7 +167,11 @@
                 "markup.heading.setext.1.markdown",
                 "markup.heading.setext.2.markdown",
                 "punctuation.definition.quote.begin.markdown",
-                "punctuation.definition.list.begin.markdown"
+                "punctuation.definition.list.begin.markdown",
+
+                // SQL
+                "keyword.other.sql",
+                "keyword.other.DDL.create.II.sql"
             ],
             "settings": {
                 "foreground": "#4589ff"
@@ -339,12 +348,17 @@
                 "storage.type.function.arrow",
                 "punctuation.definition.entity",
                 "keyword.other.unit",
-
+                
                 // CSS
                 "entity.other.attribute-name.class.css",
-
+                
                 // C#
-                "storage.type.cs"
+                "storage.type.cs",
+                
+                // SQL
+                "keyword.other.DML.sql",
+                "keyword.other.sql",
+                "keyword.other.DDL.create.II.sql"
             ],
             "settings": {
                 "fontStyle": ""

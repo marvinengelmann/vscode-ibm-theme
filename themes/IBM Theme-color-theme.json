@@ -65,10 +65,14 @@
                 "keyword.operator.unpacking.parameter", 
                 "keyword.operator.ternary",
                 "storage.modifier.reference",
+                "storage.modifier.pointer",
                 "punctuation.separator.question-mark",
 
                 // C
-                "keyword.operator.c"
+                "keyword.operator.c",
+
+                // C++
+                "keyword.operator.cpp"
             ],
             "settings": {
                 "foreground": "#ff8389"
@@ -119,6 +123,7 @@
                 "entity.other.alias",
                 "entity.name.type",
                 "entity.name.variable.event",
+                "entity.name.namespace",
                 "support.constant.property-value",
                 "support.constant.color.w3c-extended-color-name",
                 "support.constant.color.w3c-standard-color-name",
@@ -128,6 +133,7 @@
                 "support.type",
                 "support.other.namespace",
                 "constant.language",
+                "constant.other.placeholder",
                 "meta.property-value",
 
                 // C#
@@ -144,8 +150,7 @@
                 "storage.type.generic.java",
                 "storage.type.object.array.java",
 
-                // C
-                "constant.other.placeholder.c",
+                // C                
                 "entity.name.function.preprocessor.c"
             ],
             "settings": {
@@ -230,7 +235,10 @@
                 "meta.class.body.java",
 
                 // C
-                "source.c"
+                "source.c",
+
+                // C++
+                "source.cpp"
             ],
             "settings": {
                 "foreground": "#33b1ff"
@@ -266,7 +274,10 @@
         },
         {
             "name": "Gray 70",
-            "scope": "comment",
+            "scope": [
+                "comment",
+                "punctuation.definition.comment"
+            ],
             "settings": {
                 "foreground": "#525252"
             }
@@ -301,66 +312,18 @@
         {
             "name": "White",
             "scope": [
-                // Global
-                "punctuation.definition.string",
-                "punctuation.definition.entity",
-                "punctuation.definition.string.template",
-                "punctuation.definition.template-expression",
-                "punctuation.definition.variable",
-                "punctuation.definition.string",
-                "punctuation.definition.interpolation",
-                "punctuation.definition.raw",
-                "punctuation.definition.arguments",
-                "punctuation.definition.list",
-                "punctuation.definition.dict",
-                "punctuation.definition.parameters",
-                "punctuation.definition.decorator",
-                "punctuation.definition.inheritance",
-                "punctuation.definition.annotation",
+                // Global                
+                "punctuation.definition",
+                "punctuation.separator",
                 "punctuation.parenthesis",
-                "punctuation.support.type.property-name",
-                "punctuation.separator.inheritance",
-                "punctuation.separator.element",
-                "punctuation.separator.list.comma",
-                "punctuation.separator.parameters",
-                "punctuation.separator.colon",
-                "punctuation.separator.key-value",
-                "punctuation.separator.delimiter",
-                "punctuation.section.function.begin.bracket.round",
-                "punctuation.section.function.end.bracket.round",
-                "punctuation.section.function.lambda",
-                "punctuation.section.function",
-                "punctuation.section.class",
-                "punctuation.section.block.begin.bracket.curly",
-                "punctuation.section.block.end.bracket.curly",
-                "punctuation.section.method.begin.bracket.curly",
-                "punctuation.section.method.end.bracket.curly",
-                "punctuation.section.try.resources.begin.bracket.round",
-                "punctuation.section.try.resources.end.bracket.round",
-                "punctuation.section.try.begin.bracket.curly",
-                "punctuation.section.try.end.bracket.curly",
-                "punctuation.section.catch.begin.bracket.curly",
-                "punctuation.section.catch.end.bracket.curly",
-                "punctuation.section.parameters.begin.bracket.round",
-                "punctuation.section.parameters.end.bracket.round",
-                "punctuation.section.parens.begin.bracket.round",
-                "punctuation.section.parens.end.bracket.round",
-                "punctuation.section.arguments.begin.bracket.round",
-                "punctuation.section.arguments.end.bracket.round",
-                "punctuation.definition.begin.bracket.square",
-                "punctuation.definition.end.bracket.square",
-                "punctuation.separator.arguments",
-                "punctuation.separator.slice",
-                "punctuation.separator.dict",
-                "punctuation.separator.period",
+                "punctuation.support",
+                "punctuation.section",            
                 "punctuation.terminator",
-                "punctuation.bracket.round",
-                "punctuation.bracket.square",
-                "punctuation.bracket.angle",
+                "punctuation.bracket",
                 "storage.type.function.arrow",
                 "storage.modifier.array.bracket.square",
                 "keyword.operator.assignment",
-                "constant.character.format.placeholder.other",
+                "constant.character.format.placeholder.other",            
 
                 // Python
                 "keyword.operator.python",

@@ -65,7 +65,10 @@
                 "keyword.operator.unpacking.parameter", 
                 "keyword.operator.ternary",
                 "storage.modifier.reference",
-                "punctuation.separator.question-mark"
+                "punctuation.separator.question-mark",
+
+                // C
+                "keyword.operator.c"
             ],
             "settings": {
                 "foreground": "#ff8389"
@@ -139,7 +142,11 @@
                 // Java
                 "storage.type.java",
                 "storage.type.generic.java",
-                "storage.type.object.array.java"
+                "storage.type.object.array.java",
+
+                // C
+                "constant.other.placeholder.c",
+                "entity.name.function.preprocessor.c"
             ],
             "settings": {
                 "foreground": "#a56eff"
@@ -169,6 +176,7 @@
                 "keyword.other.nameof",
                 "keyword.other.static",
                 "keyword.other.DML",
+                "keyword.operator.sizeof",
 
                 // JSON
                 "support.type.property-name.json",
@@ -219,7 +227,10 @@
                 "source.python",
 
                 // Java
-                "meta.class.body.java"
+                "meta.class.body.java",
+
+                // C
+                "source.c"
             ],
             "settings": {
                 "foreground": "#33b1ff"
@@ -272,6 +283,7 @@
                 "variable.parameter.url",
                 "string.quoted.docstring.multi",
                 "string.quoted.docstring.single",
+                "string.quoted.other.lt-gt.include",
                 
                 // Markdown
                 "markup.underline.link.markdown",
@@ -329,6 +341,14 @@
                 "punctuation.section.try.end.bracket.curly",
                 "punctuation.section.catch.begin.bracket.curly",
                 "punctuation.section.catch.end.bracket.curly",
+                "punctuation.section.parameters.begin.bracket.round",
+                "punctuation.section.parameters.end.bracket.round",
+                "punctuation.section.parens.begin.bracket.round",
+                "punctuation.section.parens.end.bracket.round",
+                "punctuation.section.arguments.begin.bracket.round",
+                "punctuation.section.arguments.end.bracket.round",
+                "punctuation.definition.begin.bracket.square",
+                "punctuation.definition.end.bracket.square",
                 "punctuation.separator.arguments",
                 "punctuation.separator.slice",
                 "punctuation.separator.dict",
@@ -338,6 +358,7 @@
                 "punctuation.bracket.square",
                 "punctuation.bracket.angle",
                 "storage.type.function.arrow",
+                "storage.modifier.array.bracket.square",
                 "keyword.operator.assignment",
                 "constant.character.format.placeholder.other",
 
@@ -345,7 +366,7 @@
                 "keyword.operator.python",
 
                 // Java
-                "keyword.control.ternary.java",
+                "keyword.control.ternary.java"
             ],
             "settings": {
                 "foreground": "#ffffff"
@@ -386,6 +407,7 @@
                 "punctuation.definition.entity",
                 "keyword.other.unit",
                 "keyword.control.ternary",
+                "storage.modifier.array.bracket.square",
                 
                 // CSS
                 "entity.other.attribute-name.class.css",

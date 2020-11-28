@@ -62,7 +62,8 @@
                 "keyword.operator.conditional.question-mark",
                 "keyword.operator.conditional.colon",
                 "keyword.operator.unpacking.arguments",
-                "keyword.operator.unpacking.parameter",
+                "keyword.operator.unpacking.parameter", 
+                "keyword.operator.ternary",
                 "storage.modifier.reference",
                 "punctuation.separator.question-mark"
             ],

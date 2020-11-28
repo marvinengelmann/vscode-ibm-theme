@@ -91,11 +91,16 @@
                 "keyword.other.use-as",
                 "keyword.other.using",
                 "keyword.other.where",
+                "keyword.other.import",
                 "variable.language.super",
+                "variable.language.wildcard",
                 "constant.character.escape",
 
                 // CSS
-                "entity.name.tag.css"
+                "entity.name.tag.css",
+
+                // Java
+                "storage.type.annotation.java"
             ],
             "settings": {
                 "foreground": "#ff7eb6"
@@ -129,7 +134,12 @@
                 "meta.separator.markdown",
                 
                 // SQL
-                "constant.other.database-name.sql"
+                "constant.other.database-name.sql",
+
+                // Java
+                "storage.type.java",
+                "storage.type.generic.java",
+                "storage.type.object.array.java"
             ],
             "settings": {
                 "foreground": "#a56eff"
@@ -197,6 +207,7 @@
                 "variable.object.property",
                 "meta.object-literal.key",
                 "meta.function-call.arguments",
+                "meta.method.body",
                 "constant.other",
 
                 // Markdown
@@ -205,7 +216,10 @@
                 "constant.character.escape.markdown",
 
                 // Python
-                "source.python"
+                "source.python",
+
+                // Java
+                "meta.class.body.java"
             ],
             "settings": {
                 "foreground": "#33b1ff"
@@ -263,7 +277,10 @@
                 "markup.underline.link.markdown",
                 "markup.underline.link.image.markdown",
                 "string.other.link.description.title.markdown",
-                "string.other.link.title.markdown"
+                "string.other.link.title.markdown",
+
+                // Java
+                "storage.modifier.import.java"
             ],
             "settings": {
                 "foreground": "#a8a8a8"
@@ -287,6 +304,7 @@
                 "punctuation.definition.parameters",
                 "punctuation.definition.decorator",
                 "punctuation.definition.inheritance",
+                "punctuation.definition.annotation",
                 "punctuation.parenthesis",
                 "punctuation.support.type.property-name",
                 "punctuation.separator.inheritance",
@@ -295,21 +313,39 @@
                 "punctuation.separator.parameters",
                 "punctuation.separator.colon",
                 "punctuation.separator.key-value",
+                "punctuation.separator.delimiter",
                 "punctuation.section.function.begin.bracket.round",
                 "punctuation.section.function.end.bracket.round",
                 "punctuation.section.function.lambda",
                 "punctuation.section.function",
                 "punctuation.section.class",
+                "punctuation.section.block.begin.bracket.curly",
+                "punctuation.section.block.end.bracket.curly",
+                "punctuation.section.method.begin.bracket.curly",
+                "punctuation.section.method.end.bracket.curly",
+                "punctuation.section.try.resources.begin.bracket.round",
+                "punctuation.section.try.resources.end.bracket.round",
+                "punctuation.section.try.begin.bracket.curly",
+                "punctuation.section.try.end.bracket.curly",
+                "punctuation.section.catch.begin.bracket.curly",
+                "punctuation.section.catch.end.bracket.curly",
                 "punctuation.separator.arguments",
                 "punctuation.separator.slice",
                 "punctuation.separator.dict",
                 "punctuation.separator.period",
+                "punctuation.terminator",
+                "punctuation.bracket.round",
+                "punctuation.bracket.square",
+                "punctuation.bracket.angle",
                 "storage.type.function.arrow",
                 "keyword.operator.assignment",
                 "constant.character.format.placeholder.other",
 
                 // Python
-                "keyword.operator.python"
+                "keyword.operator.python",
+
+                // Java
+                "keyword.control.ternary.java",
             ],
             "settings": {
                 "foreground": "#ffffff"
@@ -349,6 +385,7 @@
                 "storage.type.function.arrow",
                 "punctuation.definition.entity",
                 "keyword.other.unit",
+                "keyword.control.ternary",
                 
                 // CSS
                 "entity.other.attribute-name.class.css",
@@ -359,7 +396,13 @@
                 // SQL
                 "keyword.other.DML.sql",
                 "keyword.other.sql",
-                "keyword.other.DDL.create.II.sql"
+                "keyword.other.DDL.create.II.sql",
+
+                // Java
+                "storage.modifier.import.java",
+                "storage.type.java",
+                "storage.type.generic.java",
+                "storage.type.object.array.java"
             ],
             "settings": {
                 "fontStyle": ""

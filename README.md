@@ -5,7 +5,7 @@ A theme with a unique aesthetic, trying to represent the [IBM Design Language](h
 For an incomparable experience the font [IBM Plex Mono](https://github.com/IBM/plex) is required.
 
 ## Supported technologies
-`HTML`, `CSS`, `JSON`, `JavaScript`, `TypeScript`, `PHP`, `C#`, `Markdown`, `Python`, `SQL`
+`HTML`, `CSS`, `JSON`, `JavaScript`, `TypeScript`, `PHP`, `C#`, `Markdown`, `Python`, `SQL`, `Java`
 
 The color theme is tested against code from [Learn X in Y minutes](https://learnxinyminutes.com/).
 

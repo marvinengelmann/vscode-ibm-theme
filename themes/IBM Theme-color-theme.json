@@ -65,6 +65,7 @@
                 "keyword.operator.unpacking.parameter", 
                 "keyword.operator.ternary",
                 "keyword.operator.quantifier",
+                "keyword.operator.regexp",
                 "storage.modifier.reference",
                 "storage.modifier.pointer",
                 "punctuation.separator.question-mark",
@@ -90,6 +91,7 @@
                 "keyword.operator.expression",
                 "keyword.operator.new",
                 "keyword.operator.star",
+                "keyword.operator.type",                
                 "keyword.other.important",
                 "keyword.other.function.use",
                 "keyword.other.new",
@@ -99,6 +101,7 @@
                 "keyword.other.using",
                 "keyword.other.where",
                 "keyword.other.import",
+                "keyword.other.phpdoc",
                 "variable.language.super",
                 "variable.language.wildcard",
                 "constant.character.escape",                
@@ -129,6 +132,7 @@
                 "support.constant.font-name",
                 "support.constant.math",
                 "support.constant.parity",
+                "support.constant.std",
                 "support.class",
                 "support.type",
                 "support.other.namespace",
@@ -181,6 +185,7 @@
                 "keyword.other.nameof",
                 "keyword.other.static",
                 "keyword.other.DML",
+                "keyword.other.type",
                 "keyword.operator.sizeof",                
 
                 // JSON
@@ -330,6 +335,7 @@
                 "storage.type.function.arrow",
                 "storage.modifier.array.bracket.square",
                 "keyword.operator.assignment",
+                "keyword.other.array.phpdoc",
                 "constant.character.format.placeholder.other",            
 
                 // Python
@@ -352,6 +358,7 @@
                 "keyword.operator.logical.and.media",
                 "keyword.operator.expression",
                 "keyword.operator.new",
+                "keyword.operator.type",
                 "keyword.other",
                 "keyword.type",
                 "support.constant.color",

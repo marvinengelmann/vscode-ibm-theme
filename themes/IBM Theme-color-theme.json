@@ -111,11 +111,13 @@
                 "keyword.other.package",
                 "keyword.other.documentation",
                 "keyword.other.typedef",
+                "keyword.other.namespace",
                 "keyword.preprocessor",
                 "variable.language.super",
                 "variable.language.wildcard",
                 "constant.character.escape",
                 "storage.type.class.jsdoc",
+                "storage.type.namespace",
 
                 // CSS
                 "entity.name.tag.css",
@@ -205,8 +207,7 @@
                 "keyword.other.unchecked",
                 "keyword.other.default",
                 "keyword.other.struct",
-                "keyword.other.lock",
-                "keyword.other.namespace",
+                "keyword.other.lock",                
 
                 // JSON
                 "support.type.property-name.json",

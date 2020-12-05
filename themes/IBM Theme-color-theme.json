@@ -111,6 +111,7 @@
                 "keyword.other.as",
                 "keyword.other.package",
                 "keyword.other.documentation",
+                "keyword.other.typedef",
                 "keyword.preprocessor",
                 "variable.language.super",
                 "variable.language.wildcard",
@@ -149,8 +150,7 @@
                 "support.class",
                 "support.type",
                 "support.other.namespace",
-                "constant.language",
-                "constant.other.placeholder",
+                "constant.language",                
                 "meta.property-value",
 
                 // C#
@@ -165,10 +165,7 @@
                 // Java
                 "storage.type.java",
                 "storage.type.generic.java",
-                "storage.type.object.array.java",
-
-                // C
-                "entity.name.function.preprocessor.c"
+                "storage.type.object.array.java",                
             ],
             "settings": {
                 "foreground": "#a56eff"
@@ -272,6 +269,7 @@
 
                 // C
                 "source.c",
+                "entity.name.function.preprocessor.c",
 
                 // C++
                 "source.cpp"
@@ -330,6 +328,8 @@
                 "entity.name.variable.preprocessor",
                 "meta.preprocessor",
                 "storage.modifier.package.java",
+                "constant.character.format.placeholder.other",
+                "constant.other.placeholder", 
                 
                 // Markdown
                 "markup.underline.link.markdown",
@@ -358,8 +358,7 @@
                 "storage.type.function.arrow",
                 "storage.modifier.array.bracket.square",
                 "keyword.operator.assignment",
-                "keyword.other.array.phpdoc",
-                "constant.character.format.placeholder.other",            
+                "keyword.other.array.phpdoc",                       
 
                 // Python
                 "keyword.operator.python",

@@ -114,10 +114,11 @@
                 "keyword.preprocessor",
                 "variable.language.super",
                 "variable.language.wildcard",
-                "constant.character.escape",                
+                "constant.character.escape",
+                "storage.type.class.jsdoc",
 
                 // CSS
-                "entity.name.tag.css",                
+                "entity.name.tag.css",
 
                 // Java
                 "storage.type.annotation.java",
@@ -358,6 +359,7 @@
                 "storage.type.function.arrow",
                 "storage.modifier.array.bracket.square",
                 "keyword.operator.assignment",
+                "keyword.operator.type.annotation",
                 "keyword.other.array.phpdoc",                       
 
                 // Python
@@ -406,6 +408,7 @@
                 "punctuation.definition.entity",
                 "keyword.other.unit",
                 "keyword.control.ternary",
+                "keyword.operator.type.annotation",
                 "storage.modifier.array.bracket.square",
 
                 // HTML

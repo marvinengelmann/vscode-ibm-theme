@@ -75,7 +75,10 @@
                 "keyword.operator.c",
 
                 // C++
-                "keyword.operator.cpp"
+                "keyword.operator.cpp",
+
+                // Java
+                "storage.type.generic.wildcard.java"
             ],
             "settings": {
                 "foreground": "#ff8389"
@@ -106,6 +109,8 @@
                 "keyword.other.is",
                 "keyword.other.await",
                 "keyword.other.as",
+                "keyword.other.package",
+                "keyword.other.documentation",
                 "keyword.preprocessor",
                 "variable.language.super",
                 "variable.language.wildcard",
@@ -263,6 +268,7 @@
 
                 // Java
                 "meta.class.body.java",
+                "meta.enum.java",
 
                 // C
                 "source.c",
@@ -323,6 +329,7 @@
                 "variable.parameter.url",
                 "entity.name.variable.preprocessor",
                 "meta.preprocessor",
+                "storage.modifier.package.java",
                 
                 // Markdown
                 "markup.underline.link.markdown",

@@ -9,10 +9,7 @@
       "modern"
     ],
     "publisher": "marvinengelmann",
-    "repository": {
-      "type": "git",
-      "url": "https://github.com/marvinengelmann/vsc-ibm-theme.git"
-    },
+    "repository": "https://github.com/marvinengelmann/vsc-ibm-theme",
     "icon": "logo.png",
     "license": "MIT License",
     "version": "1.5.0",

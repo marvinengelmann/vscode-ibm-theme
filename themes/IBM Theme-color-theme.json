@@ -115,7 +115,10 @@
                 "entity.name.tag.css",                
 
                 // Java
-                "storage.type.annotation.java"
+                "storage.type.annotation.java",
+
+                // SQL
+                "keyword.other.alias.sql"
             ],
             "settings": {
                 "foreground": "#ff7eb6"
@@ -214,7 +217,8 @@
 
                 // SQL
                 "keyword.other.sql",
-                "keyword.other.DDL.create.II.sql"
+                "keyword.other.DDL.create.II.sql",
+                "keyword.other.order.sql"
             ],
             "settings": {
                 "foreground": "#4589ff"

@@ -83,6 +83,7 @@
             "scope": [
                 // Global
                 "entity.name.tag.wildcard",
+                "entity.other.keyframe-offset",
                 "keyword.control",
                 "keyword.operator.logical.and.media",
                 "keyword.operator.expression",
@@ -99,10 +100,10 @@
                 "keyword.other.import",
                 "variable.language.super",
                 "variable.language.wildcard",
-                "constant.character.escape",
+                "constant.character.escape",                
 
                 // CSS
-                "entity.name.tag.css",
+                "entity.name.tag.css",                
 
                 // Java
                 "storage.type.annotation.java"
@@ -118,7 +119,7 @@
                 "entity.other.attribute-name.pseudo-class",
                 "entity.other.attribute-name.pseudo-element",
                 "entity.other.inherited-class",
-                "entity.other.alias",
+                "entity.other.alias",                
                 "entity.name.type",
                 "entity.name.variable.event",
                 "entity.name.namespace",
@@ -126,6 +127,7 @@
                 "support.constant.color",
                 "support.constant.font-name",
                 "support.constant.math",
+                "support.constant.parity",
                 "support.class",
                 "support.type",
                 "support.other.namespace",
@@ -178,7 +180,7 @@
                 "keyword.other.nameof",
                 "keyword.other.static",
                 "keyword.other.DML",
-                "keyword.operator.sizeof",
+                "keyword.operator.sizeof",                
 
                 // JSON
                 "support.type.property-name.json",
@@ -219,6 +221,11 @@
                 "meta.function-call.arguments",
                 "meta.method.body",
                 "constant.other",
+
+                // CSS
+                "variable.css",
+                "support.type.vendored.property-name.css",
+                "meta.at-rule.media.header.css",                
 
                 // Markdown
                 "punctuation.definition.italic.markdown",

@@ -99,8 +99,7 @@
                 "keyword.other.important",
                 "keyword.other.function.use",
                 "keyword.other.new",
-                "keyword.other.use",
-                "keyword.other.namespace",
+                "keyword.other.use",                
                 "keyword.other.use-as",
                 "keyword.other.using",
                 "keyword.other.where",
@@ -206,6 +205,7 @@
                 "keyword.other.default",
                 "keyword.other.struct",
                 "keyword.other.lock",
+                "keyword.other.namespace",
 
                 // JSON
                 "support.type.property-name.json",
@@ -238,6 +238,7 @@
                 "entity.name.variable.enum-member",
                 "entity.name.variable.property",
                 "entity.name.variable.tuple-element",
+                "entity.name.function.preprocessor",
                 "support.type.property-name",
                 "support.variable.property",
                 "variable.other",
@@ -268,8 +269,7 @@
                 "meta.enum.java",
 
                 // C
-                "source.c",
-                "entity.name.function.preprocessor.c",
+                "source.c",                
 
                 // C++
                 "source.cpp"

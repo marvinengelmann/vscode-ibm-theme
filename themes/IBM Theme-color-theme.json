@@ -365,6 +365,9 @@
                 "keyword.other.unit",
                 "keyword.control.ternary",
                 "storage.modifier.array.bracket.square",
+
+                // HTML
+                "entity.name.tag.html",
                 
                 // CSS
                 "entity.other.attribute-name.class.css",

@@ -242,6 +242,7 @@
                 "meta.function-call.arguments",
                 "meta.method.body",
                 "constant.other",
+                "constant.character.format.placeholder",
 
                 // CSS
                 "variable.css",
@@ -378,7 +379,10 @@
                 "storage.type",
                 "storage.modifier",
                 "variable.language.this",
-                "variable.language.super"
+                "variable.language.super",
+
+                // Python
+                "keyword.operator.logical.python"
             ],
             "settings": {
                 "fontStyle": "italic"

@@ -148,6 +148,7 @@
                 "support.constant.math",
                 "support.constant.parity",
                 "support.constant.std",
+                "support.constant.json",
                 "support.class",
                 "support.type",
                 "support.other.namespace",

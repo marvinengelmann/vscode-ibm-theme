@@ -165,7 +165,10 @@
                 // Java
                 "storage.type.java",
                 "storage.type.generic.java",
-                "storage.type.object.array.java",                
+                "storage.type.object.array.java",
+                
+                // XML
+                "entity.name.tag.namespace.xml"
             ],
             "settings": {
                 "foreground": "#a56eff"
@@ -428,7 +431,14 @@
                 "storage.modifier.import.java",
                 "storage.type.java",
                 "storage.type.generic.java",
-                "storage.type.object.array.java"
+                "storage.type.object.array.java",
+
+                // XML
+                "entity.name.tag.localname.xml",
+                "entity.name.tag.namespace.xml",
+
+                // YAML
+                "entity.name.tag.yaml"
             ],
             "settings": {
                 "fontStyle": ""

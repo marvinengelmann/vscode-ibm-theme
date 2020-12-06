@@ -66,12 +66,20 @@
                 "keyword.operator.quantifier",
                 "keyword.operator.regexp",
                 "keyword.operator.assignment.compound",
+                "keyword.operator.and",
+                "keyword.operator.or",
+                "keyword.operator.not",
+                "keyword.operator.compl",
+                "keyword.operator.bitor",
+                "keyword.operator.bitand",
+                "keyword.operator.xor",
                 "storage.modifier.reference",
                 "storage.modifier.pointer",
                 "punctuation.separator.question-mark",
                 
                 // C++
                 "keyword.operator.cpp",
+                "entity.name.operator.cpp",
 
                 // C
                 "keyword.operator.c",

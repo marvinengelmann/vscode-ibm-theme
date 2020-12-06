@@ -17,8 +17,11 @@ For an incomparable experience the font [IBM Plex Mono](https://github.com/IBM/p
 
 ## Screenshots
 ![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/cs.png)  
-![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/php.png)  
-![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/ts.png)  
-![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/css.png)  
-![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/js.png)  
-![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/html.png)
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/ts.png)
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/js.png)
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/php.png)
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/py.png)
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/css.png)
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/cpp.png)
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/c.png)
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/java.png)

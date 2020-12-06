@@ -341,7 +341,10 @@
                 "string.other.link.title.markdown",
 
                 // Java
-                "storage.modifier.import.java"
+                "storage.modifier.import.java",
+
+                // Ignore
+                "source.ignore"
             ],
             "settings": {
                 "foreground": "#a8a8a8"

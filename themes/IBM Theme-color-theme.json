@@ -37,6 +37,7 @@
         "inputOption.activeBorder": "#0f62fe",
         "editor.background": "#161616",
         "editor.foreground": "#ffffff",
+        "editorRuler.foreground": "#262626",
         "editorLineNumber.foreground": "#c6c6c6"
     },
     "tokenColors": [

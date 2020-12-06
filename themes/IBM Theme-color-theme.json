@@ -333,7 +333,8 @@
                 "meta.preprocessor",
                 "storage.modifier.package.java",
                 "constant.character.format.placeholder.other",
-                "constant.other.placeholder", 
+                "constant.other.placeholder",
+                "constant.other.character-class.set.regexp",
                 
                 // Markdown
                 "markup.underline.link.markdown",

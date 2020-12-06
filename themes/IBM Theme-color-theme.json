@@ -250,9 +250,6 @@
                 "keyword.var.go",
                 "keyword.map.go",
 
-                // Rust
-                "keyword.other.rust",
-
                 // JSON
                 "support.type.property-name.json",
 

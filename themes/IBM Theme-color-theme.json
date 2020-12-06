@@ -76,6 +76,9 @@
                 "storage.modifier.reference",
                 "storage.modifier.pointer",
                 "punctuation.separator.question-mark",
+
+                // Go
+                "keyword.operator.address.go",
                 
                 // C++
                 "keyword.operator.cpp",
@@ -135,8 +138,14 @@
                 "variable.language.super",
                 "variable.language.wildcard",
                 "constant.character.escape",
+                "constant.other.placeholder",
                 "storage.type.class.jsdoc",
                 "storage.type.namespace",
+
+                // Go
+                "keyword.package.go",
+                "keyword.import.go",
+                "constant.other.rune.go",
 
                 // Java
                 "storage.type.annotation.java",
@@ -235,6 +244,11 @@
                 "keyword.other.struct",
                 "keyword.other.lock",
 
+                // Go
+                "keyword.function.go",
+                "keyword.var.go",
+                "keyword.map.go",
+
                 // Rust
                 "keyword.other.rust",
 
@@ -284,6 +298,9 @@
 
                 // Python
                 "source.python",
+
+                // Go
+                "source.go",
 
                 // C++
                 "source.cpp",
@@ -362,8 +379,10 @@
                 "meta.preprocessor",
                 "storage.modifier.package.java",
                 "constant.character.format.placeholder.other",
-                "constant.other.placeholder",
                 "constant.other.character-class.set.regexp",
+
+                // Go
+                "entity.name.package.go",
                 
                 // Java
                 "storage.modifier.import.java",
@@ -395,6 +414,7 @@
                 "punctuation.section",
                 "punctuation.terminator",
                 "punctuation.bracket",
+                "punctuation.other",
                 "storage.type.function.arrow",
                 "storage.modifier.array.bracket.square",
                 "keyword.operator.assignment",
@@ -403,6 +423,9 @@
 
                 // Python
                 "keyword.operator.python",
+
+                // Go
+                "keyword.operator.ellipsis.go",
 
                 // Java
                 "keyword.control.ternary.java",
@@ -437,6 +460,13 @@
 
                 // Python
                 "keyword.operator.logical.python",
+
+                // Go
+                "keyword.package.go",
+                "keyword.import.go",
+                "keyword.function.go",
+                "keyword.var.go",
+                "keyword.map.go",
 
                 // Sass
                 "meta.definition.variable.scss"

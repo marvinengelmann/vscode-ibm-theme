@@ -68,12 +68,12 @@
                 "storage.modifier.reference",
                 "storage.modifier.pointer",
                 "punctuation.separator.question-mark",
+                
+                // C++
+                "keyword.operator.cpp",
 
                 // C
                 "keyword.operator.c",
-
-                // C++
-                "keyword.operator.cpp",
 
                 // Java
                 "storage.type.generic.wildcard.java"
@@ -93,11 +93,11 @@
                 "keyword.operator.expression",
                 "keyword.operator.new",
                 "keyword.operator.star",
-                "keyword.operator.type",                
+                "keyword.operator.type",
                 "keyword.other.important",
                 "keyword.other.function.use",
                 "keyword.other.new",
-                "keyword.other.use",                
+                "keyword.other.use",
                 "keyword.other.use-as",
                 "keyword.other.using",
                 "keyword.other.where",
@@ -118,11 +118,11 @@
                 "storage.type.class.jsdoc",
                 "storage.type.namespace",
 
-                // CSS
-                "entity.name.tag.css",
-
                 // Java
                 "storage.type.annotation.java",
+
+                // CSS
+                "entity.name.tag.css",
 
                 // SQL
                 "keyword.other.alias.sql"
@@ -138,7 +138,7 @@
                 "entity.other.attribute-name.pseudo-class",
                 "entity.other.attribute-name.pseudo-element",
                 "entity.other.inherited-class",
-                "entity.other.alias",                
+                "entity.other.alias",
                 "entity.name.type",
                 "entity.name.variable.event",
                 "entity.name.namespace",
@@ -152,25 +152,25 @@
                 "support.class",
                 "support.type",
                 "support.other.namespace",
-                "constant.language",                
+                "constant.language",
                 "meta.property-value",
 
                 // C#
                 "storage.type.cs",
 
-                // Markdown
-                "meta.separator.markdown",
-                
-                // SQL
-                "constant.other.database-name.sql",
-
                 // Java
                 "storage.type.java",
                 "storage.type.generic.java",
                 "storage.type.object.array.java",
-                
+
+                // SQL
+                "constant.other.database-name.sql",
+
                 // XML
-                "entity.name.tag.namespace.xml"
+                "entity.name.tag.namespace.xml",
+
+                // Markdown
+                "meta.separator.markdown"                
             ],
             "settings": {
                 "foreground": "#a56eff"
@@ -212,20 +212,23 @@
                 "keyword.other.struct",
                 "keyword.other.lock",                
 
+                // Rust
+                "keyword.other.rust",
+
                 // JSON
                 "support.type.property-name.json",
+
+                // SQL
+                "keyword.other.sql",
+                "keyword.other.DDL.create.II.sql",
+                "keyword.other.order.sql",
 
                 // Markdown
                 "punctuation.definition.heading.markdown",
                 "markup.heading.setext.1.markdown",
                 "markup.heading.setext.2.markdown",
                 "punctuation.definition.quote.begin.markdown",
-                "punctuation.definition.list.begin.markdown",
-
-                // SQL
-                "keyword.other.sql",
-                "keyword.other.DDL.create.II.sql",
-                "keyword.other.order.sql"
+                "punctuation.definition.list.begin.markdown"
             ],
             "settings": {
                 "foreground": "#4589ff"
@@ -256,28 +259,28 @@
                 "constant.other",
                 "constant.character.format.placeholder",
 
-                // CSS
-                "variable.css",
-                "support.type.vendored.property-name.css",
-                "meta.at-rule.media.header.css",                
-
-                // Markdown
-                "punctuation.definition.italic.markdown",
-                "punctuation.definition.bold.markdown",
-                "constant.character.escape.markdown",
-
                 // Python
                 "source.python",
+
+                // C++
+                "source.cpp",
+
+                // C
+                "source.c",
 
                 // Java
                 "meta.class.body.java",
                 "meta.enum.java",
 
-                // C
-                "source.c",                
+                // CSS
+                "variable.css",
+                "support.type.vendored.property-name.css",
+                "meta.at-rule.media.header.css",
 
-                // C++
-                "source.cpp"
+                // Markdown
+                "punctuation.definition.italic.markdown",
+                "punctuation.definition.bold.markdown",
+                "constant.character.escape.markdown"
             ],
             "settings": {
                 "foreground": "#33b1ff"
@@ -287,7 +290,7 @@
             "name": "Teal 40",
             "scope": [
                 // Global
-                "support.function",                
+                "support.function",
                 "keyword.other.base",
                 "entity.name.function",
                 "meta.function-call.generic",
@@ -336,14 +339,14 @@
                 "constant.other.placeholder",
                 "constant.other.character-class.set.regexp",
                 
+                // Java
+                "storage.modifier.import.java",
+
                 // Markdown
                 "markup.underline.link.markdown",
                 "markup.underline.link.image.markdown",
                 "string.other.link.description.title.markdown",
                 "string.other.link.title.markdown",
-
-                // Java
-                "storage.modifier.import.java",
 
                 // Ignore
                 "source.ignore"
@@ -360,14 +363,14 @@
                 "punctuation.separator",
                 "punctuation.parenthesis",
                 "punctuation.support",
-                "punctuation.section",            
+                "punctuation.section",
                 "punctuation.terminator",
                 "punctuation.bracket",
                 "storage.type.function.arrow",
                 "storage.modifier.array.bracket.square",
                 "keyword.operator.assignment",
                 "keyword.operator.type.annotation",
-                "keyword.other.array.phpdoc",                       
+                "keyword.other.array.phpdoc",
 
                 // Python
                 "keyword.operator.python",
@@ -418,25 +421,25 @@
                 "keyword.operator.type.annotation",
                 "storage.modifier.array.bracket.square",
 
-                // HTML
-                "entity.name.tag.html",
-                
-                // CSS
-                "entity.other.attribute-name.class.css",
-                
                 // C#
                 "storage.type.cs",
-                
-                // SQL
-                "keyword.other.DML.sql",
-                "keyword.other.sql",
-                "keyword.other.DDL.create.II.sql",
 
                 // Java
                 "storage.modifier.import.java",
                 "storage.type.java",
                 "storage.type.generic.java",
                 "storage.type.object.array.java",
+
+                // CSS
+                "entity.other.attribute-name.class.css",
+
+                // SQL
+                "keyword.other.DML.sql",
+                "keyword.other.sql",
+                "keyword.other.DDL.create.II.sql",
+
+                // HTML
+                "entity.name.tag.html",
 
                 // XML
                 "entity.name.tag.localname.xml",

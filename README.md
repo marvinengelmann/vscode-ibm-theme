@@ -3,8 +3,8 @@ A dark color theme with a unique aesthetic and attention to detail that tries to
 
 For an incomparable experience the font [IBM Plex Mono](https://github.com/IBM/plex) is required.
 
-## Support
-`JavaScript / TypeScript`, `PHP`, `C#`, `Python`, `C++`, `C`, `Java`, `HTML`, `CSS`, `JSON`, `Markdown`, `SQL`, `YAML`, `XML`
+## Languages support by default
+`JavaScript/TypeScript`, `PHP`, `C#`, `Python`, `C/C++`, `Java`, `HTML`, `CSS`, `JSON`, `Markdown`, `SQL`, `YAML`, `XML`
 
 ## Colors
 ![#ff8389](https://via.placeholder.com/64/ff8389/000000?text=+)
@@ -16,12 +16,20 @@ For an incomparable experience the font [IBM Plex Mono](https://github.com/IBM/p
 ![#6fdc8c](https://via.placeholder.com/64/6fdc8c/000000?text=+)
 
 ## Screenshots
-![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/cs.png)  
+![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/cs.png)
+
 ![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/ts.png)
+
 ![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/js.png)
+
 ![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/php.png)
+
 ![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/py.png)
+
 ![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/css.png)
+
 ![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/cpp.png)
+
 ![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/c.png)
+
 ![ScreenShot](https://raw.githubusercontent.com/marvinengelmann/vsc-ibm-theme/master/screenshots/java.png)

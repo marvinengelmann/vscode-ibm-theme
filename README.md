@@ -4,7 +4,7 @@ A dark color theme with a unique aesthetic and attention to detail that tries to
 For an incomparable experience the font [IBM Plex Mono](https://github.com/IBM/plex) is required.
 
 ## Support
-`HTML`, `CSS`, `JSON`, `JavaScript`, `TypeScript`, `PHP`, `C#`, `Markdown`, `Python`, `SQL`, `Java`, `C`, `C++`, `YAML`, `XML`
+`JavaScript / TypeScript`, `PHP`, `C#`, `Python`, `C++`, `C`, `Java`, `HTML`, `CSS`, `JSON`, `Markdown`, `SQL`, `YAML`, `XML`
 
 ## Colors
 ![#ff8389](https://via.placeholder.com/64/ff8389/000000?text=+)

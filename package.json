@@ -12,7 +12,7 @@
     "repository": "https://github.com/marvinengelmann/vsc-ibm-theme",
     "icon": "logo.png",
     "license": "MIT License",
-    "version": "1.5.4",
+    "version": "1.6.0",
     "engines": {
         "vscode": "^1.51.0"
     },

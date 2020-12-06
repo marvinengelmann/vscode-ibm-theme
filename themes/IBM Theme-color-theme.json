@@ -87,6 +87,12 @@
                 // Java
                 "storage.type.generic.wildcard.java",
 
+                // CSS
+                "keyword.operator.css",
+
+                // SASS
+                "entity.name.tag.reference.scss",
+
                 // YAML
                 "punctuation.definition.anchor.yaml",
                 "punctuation.definition.alias.yaml",
@@ -179,6 +185,9 @@
 
                 // SQL
                 "constant.other.database-name.sql",
+
+                // SASS
+                "meta.definition.variable.scss",
 
                 // XML
                 "entity.name.tag.namespace.xml",
@@ -291,6 +300,9 @@
                 "support.type.vendored.property-name.css",
                 "meta.at-rule.media.header.css",
 
+                // SASS
+                "variable.scss",
+
                 // Markdown
                 "punctuation.definition.italic.markdown",
                 "punctuation.definition.bold.markdown",
@@ -393,7 +405,10 @@
                 "keyword.operator.python",
 
                 // Java
-                "keyword.control.ternary.java"
+                "keyword.control.ternary.java",
+
+                // SASS
+                "meta.property-value.scss"
             ],
             "settings": {
                 "foreground": "#ffffff"
@@ -421,7 +436,10 @@
                 "variable.language.super",
 
                 // Python
-                "keyword.operator.logical.python"
+                "keyword.operator.logical.python",
+
+                // Sass
+                "meta.definition.variable.scss"
             ],
             "settings": {
                 "fontStyle": "italic"

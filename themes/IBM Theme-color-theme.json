@@ -85,7 +85,12 @@
                 "keyword.operator.c",
 
                 // Java
-                "storage.type.generic.wildcard.java"
+                "storage.type.generic.wildcard.java",
+
+                // YAML
+                "punctuation.definition.anchor.yaml",
+                "punctuation.definition.alias.yaml",
+                "constant.language.merge.yaml"
             ],
             "settings": {
                 "foreground": "#ff8389"
@@ -179,7 +184,7 @@
                 "entity.name.tag.namespace.xml",
 
                 // Markdown
-                "meta.separator.markdown"                
+                "meta.separator.markdown"
             ],
             "settings": {
                 "foreground": "#a56eff"
@@ -219,7 +224,7 @@
                 "keyword.other.unchecked",
                 "keyword.other.default",
                 "keyword.other.struct",
-                "keyword.other.lock",                
+                "keyword.other.lock",
 
                 // Rust
                 "keyword.other.rust",
@@ -357,6 +362,9 @@
                 "string.other.link.description.title.markdown",
                 "string.other.link.title.markdown",
 
+                // YAML
+                "constant.other.timestamp.yaml",
+
                 // Ignore
                 "source.ignore"
             ],
@@ -455,7 +463,9 @@
                 "entity.name.tag.namespace.xml",
 
                 // YAML
-                "entity.name.tag.yaml"
+                "entity.name.tag.yaml",
+                "keyword.control.flow.block-scalar.literal.yaml",
+                "keyword.control.flow.block-scalar.folded.yaml"
             ],
             "settings": {
                 "fontStyle": ""

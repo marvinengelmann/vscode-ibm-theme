@@ -321,7 +321,7 @@
             }
         },
         {
-            "name": "Gray 40",
+            "name": "Gray 30",
             "scope": [
                 // Global
                 "string.quoted",
@@ -348,7 +348,7 @@
                 "source.ignore"
             ],
             "settings": {
-                "foreground": "#a8a8a8"
+                "foreground": "#c6c6c6"
             }
         },
         {

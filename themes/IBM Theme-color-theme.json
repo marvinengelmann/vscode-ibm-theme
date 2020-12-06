@@ -202,7 +202,8 @@
                 "entity.name.tag.namespace.xml",
 
                 // Markdown
-                "meta.separator.markdown"
+                "meta.separator.markdown",
+                "fenced_code.block.language.markdown"
             ],
             "settings": {
                 "foreground": "#a56eff"

@@ -1,5 +1,5 @@
 # [IBM Theme](https://marketplace.visualstudio.com/items?itemName=marvinengelmann.ibm-theme)
-A theme with a unique aesthetic, trying to represent the [IBM Design Language](https://www.ibm.com/design/language/) with its colors that harmonize with nature and yet were chosen for their luminosity in the digital world.
+A dark color theme with a unique aesthetic and attention to detail that tries to represent the [IBM Design Language](https://www.ibm.com/design/language/) with its colors that are in harmony with nature and yet chosen for their luminosity in the digital world.
 
 For an incomparable experience the font [IBM Plex Mono](https://github.com/IBM/plex) is required.
 

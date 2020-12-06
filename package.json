@@ -1,7 +1,7 @@
 {
     "name": "ibm-theme",
     "displayName": "IBM Theme",
-    "description": "A theme with an unique aesthetic, trying to represent the IBM Design Language with its colors that harmonize with nature and yet were chosen for their luminosity in the digital world.",
+    "description": "A dark color theme with a unique aesthetic and attention to detail that tries to represent the IBM design language with its colors that are in harmony with nature and yet chosen for their luminosity in the digital world.",
     "keywords": [
       "theme",
       "ibm",
@@ -12,7 +12,7 @@
     "repository": "https://github.com/marvinengelmann/vsc-ibm-theme",
     "icon": "logo.png",
     "license": "MIT License",
-    "version": "1.5.1",
+    "version": "1.5.2",
     "engines": {
         "vscode": "^1.51.0"
     },

@@ -110,6 +110,7 @@
                 "keyword.other.documentation",
                 "keyword.other.typedef",
                 "keyword.other.namespace",
+                "keyword.other.unit",
                 "keyword.preprocessor",
                 "variable.language.super",
                 "variable.language.wildcard",
@@ -285,8 +286,7 @@
             "name": "Teal 40",
             "scope": [
                 // Global
-                "support.function",
-                "keyword.other.unit",
+                "support.function",                
                 "keyword.other.base",
                 "entity.name.function",
                 "meta.function-call.generic",

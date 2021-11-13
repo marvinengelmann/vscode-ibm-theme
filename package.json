@@ -1,30 +1,34 @@
 {
-    "name": "ibm-theme",
-    "displayName": "IBM Theme",
-    "description": "Visual Studio Code theme following the IBM Design Language",
-    "keywords": [
-      "ibm",
-      "theme",
-      "dark"
-    ],
-    "publisher": "marvinengelmann",
-    "repository": "https://github.com/marvinengelmann/vscode-ibm-theme",
-    "icon": "icon.png",
-    "license": "MIT License",
-    "version": "2.0.0",
-    "engines": {
-        "vscode": "^1.62.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "IBM Theme",
-                "uiTheme": "vs-dark",
-                "path": "./themes/ibm-color-theme.json"
-            }
-        ]
-    }
+  "name": "ibm-theme",
+  "displayName": "IBM Theme",
+  "description": "Visual Studio Code theme following the IBM Design Language",
+  "keywords": [
+    "ibm",
+    "theme",
+    "dark"
+  ],
+  "publisher": "marvinengelmann",
+  "repository": "https://github.com/marvinengelmann/vscode-ibm-theme",
+  "icon": "icon.png",
+  "galleryBanner": {
+    "color": "#161616",
+    "theme": "dark"
+  },
+  "license": "MIT License",
+  "version": "2.0.1",
+  "engines": {
+    "vscode": "^1.62.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "IBM Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/ibm-color-theme.json"
+      }
+    ]
+  }
 }

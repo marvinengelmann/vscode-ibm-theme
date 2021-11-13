@@ -42,13 +42,6 @@
   },
   "tokenColors": [
     {
-      "name": "Red 50",
-      "scope": [],
-      "settings": {
-        "foreground": "#ff8389"
-      }
-    },
-    {
       "name": "Magenta 50",
       "scope": ["keyword", "punctuation.separator"],
       "settings": {
@@ -81,13 +74,6 @@
       "scope": ["entity.name.function", "support.function"],
       "settings": {
         "foreground": "#08bdba"
-      }
-    },
-    {
-      "name": "Green 30",
-      "scope": [],
-      "settings": {
-        "foreground": "#6fdc8c"
       }
     },
     {

@@ -1,20 +1,19 @@
 {
     "name": "ibm-theme",
     "displayName": "IBM Theme",
-    "description": "A dark color theme with a unique aesthetic and attention to detail.",
+    "description": "Visual Studio Code theme following the IBM Design Language",
     "keywords": [
-      "theme",
       "ibm",
-      "dark",
-      "modern"
+      "theme",
+      "dark"
     ],
     "publisher": "marvinengelmann",
-    "repository": "https://github.com/marvinengelmann/vsc-ibm-theme",
-    "icon": "logo.png",
+    "repository": "https://github.com/marvinengelmann/vscode-ibm-theme",
+    "icon": "icon.png",
     "license": "MIT License",
-    "version": "1.6.0",
+    "version": "2.0.0",
     "engines": {
-        "vscode": "^1.51.0"
+        "vscode": "^1.62.0"
     },
     "categories": [
         "Themes"
@@ -24,7 +23,7 @@
             {
                 "label": "IBM Theme",
                 "uiTheme": "vs-dark",
-                "path": "./themes/IBM Theme-color-theme.json"
+                "path": "./themes/ibm-color-theme.json"
             }
         ]
     }

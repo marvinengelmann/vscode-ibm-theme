@@ -20,7 +20,7 @@
     "list.inactiveSelectionForeground": "#ffffff",
     "list.warningForeground": "#f1c21b",
     "list.errorForeground": "#da1e28",
-    "gitDecoration.modifiedResourceForeground": "#8a3ffc",
+    "gitDecoration.modifiedResourceForeground": "#33b1ff",
     "editorGroupHeader.tabsBackground": "#161616",
     "editorGroupHeader.tabsBorder": "#393939",
     "tab.activeBackground": "#393939",
@@ -43,7 +43,12 @@
   "tokenColors": [
     {
       "name": "Magenta 50",
-      "scope": ["keyword", "punctuation.separator"],
+      "scope": [
+        "keyword",
+        "punctuation.separator",
+        "punctuation.accessor",
+        "entity.name.operator"
+      ],
       "settings": {
         "foreground": "#ee5396"
       }
@@ -57,14 +62,20 @@
     },
     {
       "name": "Blue 50",
-      "scope": ["storage", "variable.language", "keyword.other.type"],
+      "scope": [
+        "storage",
+        "variable.language",
+        "keyword.other.type",
+        "entity.other.attribute-name",
+        "support.type"
+      ],
       "settings": {
         "foreground": "#4589ff"
       }
     },
     {
       "name": "Cyan 40",
-      "scope": ["constant"],
+      "scope": ["constant", "support.constant"],
       "settings": {
         "foreground": "#33b1ff"
       }
@@ -77,12 +88,12 @@
       }
     },
     {
-        "name": "Green 30",
-        "scope": ["string"],
-        "settings": {
-          "foreground": "#a8a8a8"
-        }
-      },
+      "name": "Green 30",
+      "scope": ["string"],
+      "settings": {
+        "foreground": "#a8a8a8"
+      }
+    },
     {
       "name": "Gray 70",
       "scope": ["comment"],

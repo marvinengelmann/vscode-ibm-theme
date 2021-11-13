@@ -5,11 +5,11 @@ A Visual Studio Code theme following the [IBM Design Language](https://www.ibm.c
 [IBM Plex Mono](https://github.com/IBM/plex) 
 
 ## Colors
-![#ee5396](https://via.placeholder.com/64/ee5396/000000?text=+)
-![#a56eff](https://via.placeholder.com/64/a56eff/000000?text=+)
-![#4589ff](https://via.placeholder.com/64/4589ff/000000?text=+)
-![#33b1ff](https://via.placeholder.com/64/33b1ff/000000?text=+)
-![#08bdba](https://via.placeholder.com/64/08bdba/000000?text=+)
+![Magenta 50](https://raw.githubusercontent.com/marvinengelmann/vscode-ibm-theme/master/magenta-50.png)
+![Purple 50](https://raw.githubusercontent.com/marvinengelmann/vscode-ibm-theme/master/purple-50.png)
+![Blue 50](https://raw.githubusercontent.com/marvinengelmann/vscode-ibm-theme/master/blue-50.png)
+![Cyan 40](https://raw.githubusercontent.com/marvinengelmann/vscode-ibm-theme/master/cyan-40.png)
+![Teal 40](https://raw.githubusercontent.com/marvinengelmann/vscode-ibm-theme/master/teal-40.png)
 
 ## Screenshot
 ![Screenshot](https://raw.githubusercontent.com/marvinengelmann/vscode-ibm-theme/master/screenshot.png)
